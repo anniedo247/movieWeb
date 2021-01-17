@@ -30,7 +30,7 @@ const MovieDetail = () => {
             alt="Generic placeholder"
           />
           <Media.Body>
-            <h2><strong>{movie.title}{movie.title}<span>({movie.release_date && movie.release_date.substring(0, 4)})</span></strong></h2>
+            <h2><strong>{movie.title}<span>({movie.release_date && movie.release_date.substring(0, 4)})</span></strong></h2>
             {movie.genres && movie.genres.map(e=><span> {e.name}</span>)}
           </Media.Body>
         </Media>
